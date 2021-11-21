@@ -23,9 +23,13 @@ Remote
 - git merge + Branch_Name_New (tổng hợp branch mới vào cũ)
 - git branch -d + Branch_Name (Xoá 1 branch. Lưu ý kiểm tra branch và lưu file trc khi xoá)
 
-- git push + URL_Reponsitory_Github + Branch_Name (push file git lên sever github, hay còn gọi là reponsitory)
+
+- git push + URL_Reponsitory_Github + Branch_Name (push folder code theo branch lên server github, hay reponsitory)
 - git remote add origin URL_Reponsitory_Github(đổi tên url github thành 'origin')
-- git push + origin + Branch_Name (push file git lên sever github, hay còn gọi là reponsitory)
+- git push + origin + Branch_Name (push folder code theo branch lên server github, hay reponsitory)
 
 - git clone + URL_Reponsitory_Github (clone lại folder github nếu ko may xoá nhầm)
+- git push (push toàn bộ lên server github, chỉ dùng dc khi clone folder code từ server github về máy)
 - vào vscode nhanh: mở terminal -> cd vào folder code -> gõ "code ."
+
+- git push -u origin + Branch_Name (push branch lên sv github, sau bước này chỉ cần dùng git push)
