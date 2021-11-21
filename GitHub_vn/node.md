@@ -1,8 +1,8 @@
 # Terms
 
 Responsitory (Repo)
-Branch
-Conflict
+Branch (Nhánh)
+Conflict (Xung đột)
 
 # Commands
 
