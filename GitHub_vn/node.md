@@ -32,4 +32,9 @@ Remote
 - git push (push toàn bộ lên server github, chỉ dùng dc khi clone folder code từ server github về máy)
 - vào vscode nhanh: mở terminal -> cd vào folder code -> gõ "code ."
 
-- git push -u origin + Branch_Name (push branch lên sv github, sau bước này chỉ cần dùng git push để push folder code theo branch)
+- git push -u origin + Branch_Name (push branch tạo từ pc lên sv github, sau bước này chỉ cần dùng git push để push folder code theo branch)
+
+- git fetch origin
+- git checkout -b + Branch_Name_ServerGithub + origin/Branch_Name_ServerGithub
+
+
