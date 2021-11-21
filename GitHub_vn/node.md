@@ -37,4 +37,5 @@ Remote
 - git fetch origin
 - git checkout -b + Branch_Name_ServerGithub + origin/Branch_Name_ServerGithub
 
+-git pull (kéo merge từ sv github về pc)
 
