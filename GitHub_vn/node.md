@@ -34,8 +34,8 @@ Remote
 
 - git push -u origin + Branch_Name (push branch tạo từ pc lên sv github, sau bước này chỉ cần dùng git push để push folder code theo branch)
 
-- git fetch origin
-- git checkout -b + Branch_Name_ServerGithub + origin/Branch_Name_ServerGithub
+- git fetch origin (check branch chỉ đang tồn tại trên sv Github)
+- git checkout -b + Branch_Name_ServerGithub + origin/Branch_Name_ServerGithub (kéo branch tạo từ sv Github về pc)
 
 -git pull (kéo merge từ sv github về pc)
 
