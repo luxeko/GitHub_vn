@@ -24,4 +24,5 @@ Remote
 - git branch -d + Branch_Name (Xoá 1 branch. Lưu ý kiểm tra branch và lưu file trc khi xoá)
 
 -git push + URL_Reponsitory_Github + Branch_Name (push file git lên sever github, hay còn gọi là reponsitory)
-
+-git remote add origin URL_Reponsitory_Github(đổi tên url github thành 'origin')
+-git push + origin + Branch_Name (push file git lên sever github, hay còn gọi là reponsitory)
