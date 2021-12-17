@@ -38,4 +38,3 @@ Remote
 - git checkout -b + Branch_Name_ServerGithub + origin/Branch_Name_ServerGithub (kéo branch tạo từ sv Github về pc)
 
 -git pull (kéo merge từ sv github về pc)
-
